@@ -10,11 +10,11 @@ import "@fortawesome/fontawesome-free/css/all.css"
 
 
 
-let hour =0;
-let min =0;
-let sec =0;
-let count= setInterval(function(){
-    ReactDOM.render(<App name ={"Contador"} num1={sec} num2={min} num3={hour}/>, document.querySelector("#root"))
+let hour = 0;
+let min = 0;
+let sec = 0;
+let count = setInterval(function(){
+    ReactDOM.render (<App name ={"Contador"} num1={sec} num2={min} num3={hour}/>, document.querySelector("#root"))
     sec ++;
     if (sec === 60) {
         sec = 0;
